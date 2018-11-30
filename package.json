@@ -1,0 +1,17 @@
+{
+  "name": "tiny-palx",
+  "version": "1.0.0",
+  "description": "Automatic UI Color Palette Generator (tiny version of palx)",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Brian Hann",
+  "license": "MIT",
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
