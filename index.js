@@ -1,5 +1,5 @@
-const tinycolor = require('tinycolor2');
-const hueName = require('./hue-name')
+import tinycolor from '@ctrl/tinycolor';
+import hueName from './hue-name';
 
 const lums = [
   9,

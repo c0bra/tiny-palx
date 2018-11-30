@@ -2,16 +2,26 @@
   "name": "tiny-palx",
   "version": "1.0.0",
   "description": "Automatic UI Color Palette Generator (tiny version of palx)",
+  "repository": "git@github.com:c0bra/tiny-palx.git",
   "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "author": "Brian Hann",
   "license": "MIT",
+  "keywords": [
+    "color",
+    "color-palette"
+  ],
   "dependencies": {
-    "tinycolor2": "^1.4.1"
+    "@ctrl/tinycolor": "^2.2.1"
   },
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-filesize": "^5.0.1",
+    "rollup-plugin-node-resolve": "^3.4.0"
   }
 }
